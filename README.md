@@ -13,6 +13,8 @@ NPCs can evolve their behavior and conversation tone naturally over time based o
 
 DyCoDE supports dynamic voice responses via real-time TTS fallback, maintains long-term companion memory profiles and is built with performance optimizations suitable for consumer hardware.
 
+![Dynamic Companion Dialogue Engine Architecture](Dynamic%20Companion%20Dialogue%20Engine.jpg)
+
 *(This is a high-level overview — much more happens under the hood, including token management, emotional decay, major event tracking, and system prompt construction.)*
 
 ---
