@@ -5,7 +5,7 @@ DyCoDE is a modular frontend/backend system for building emotionally reactive, A
 
 ---
 
-## ✨ Overview
+## Overview
 
 DyCoDE aims to replace static dialogue trees with dynamic, memory-driven interactions.  
 Using lightweight LLMs (1B–3B parameters) and persistent emotional states (trust, respect, fear, betrayal),  
@@ -19,7 +19,7 @@ DyCoDE supports dynamic voice responses via real-time TTS fallback, maintains lo
 
 ---
 
-## ⚙️ Key Features
+## Key Features
 
 - **Memory-Based Relationship Evolution**  
   Track Trust, Respect, Fear, Betrayal, Affection, and adjust NPC dialogue accordingly.
@@ -38,19 +38,19 @@ DyCoDE supports dynamic voice responses via real-time TTS fallback, maintains lo
 
 ---
 
-## 🚀 Performance Notes
+## Performance Notes
 
-- DyCoDE is designed around **small token budgets per conversation** (e.g., 256 input tokens, 30–60 output tokens).
-- Transformer inference behaves **approximately linear (O(n))** with respect to sequence length for fixed-size models.
-- On an **RTX 3060 (12GB)** running 4-bit quantized models:
-- Estimated generation time for 30–60 tokens = **~200–500ms**.
+- DyCoDE is designed around small token budgets per conversation (e.g., 256 input tokens, 30–60 output tokens).
+- Transformer inference behaves approximately linear (O(n)) with respect to sequence length for fixed-size models.
+- On an RTX 3060 (12GB) running 4-bit quantized models:
+- Estimated generation time for 30–60 tokens = ~200–500ms.
 - NPC replies remain responsive enough for real-time gameplay, matching normal human dialogue pacing.
 
 ---
 
-## 📚 Project Status
+## Project Status
 
-This is currently a **high-level system architecture** — not a full working prototype (yet).  
+This is currently a high-level system architecture — not a full working prototype (yet).  
 
 I am not a professional software developer — if you are interested, pls help.
 
