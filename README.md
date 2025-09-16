@@ -50,8 +50,6 @@ DyCoDE supports dynamic voice responses via real-time TTS fallback, maintains lo
 
 ## Project Status
 
-This is currently a high-level system architecture — not a full working prototype (yet).  
-
-I am not a professional software developer — if you are interested, pls help.
+I decided to pick it up again after a while. Currently working on migrating the project over to a web demo.
 
 ---
